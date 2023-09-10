@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  background: #eee;
+  font: 13px/1.5em "Open Sans", Helvetica, Arial, sans-serif;
+  -webkit-perspective: 500;
+  -moz-perspective: 500;
+  perspective: 500;
+  overflow: hidden;
+  background: black !important;
+}
+
+canvas {
+  visibility: hidden;
+}
+
+.animate {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all ease 0.1s; /* 0.1s */
+}
+
+#hit {
+  padding: 10px;
+  background-color: yellow;
+  opacity: 0;
+}
+
+.circle {
+  /* padding: 10px; */
+  border-radius: 50%;
+  width: 20px; /* 50px; */
+  height: 20px;
+  margin: 50px;
+  /* color: red; */
+  background-color: white;
+  visibility: hidden;
+  position: absolute;
+  border: 1px solid white;
+}
+
+#valuesText {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  /* transform: translate(0, 0); */
+}

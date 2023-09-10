@@ -1,0 +1,28 @@
+{
+  "preview": [
+    {
+      "views": [
+        {
+          "id": "codesandbox.browser"
+        },
+        {
+          "id": "codesandbox.tests"
+        },
+        {
+          "id": "codesandbox.terminalUpgrade",
+          "hideOnEmbedPage": true
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "id": "codesandbox.console"
+        },
+        {
+          "id": "codesandbox.problems"
+        }
+      ]
+    }
+  ]
+}
